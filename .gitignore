@@ -34,3 +34,6 @@
 # LLVM files
 *.ll
 *.bc
+
+# Bin folders
+**/bin
