@@ -1,3 +1,3 @@
-int sum_int(int a, int b){
-  return a + b;
+int c_multiply(int a, int b){
+  return a * b;
 }
