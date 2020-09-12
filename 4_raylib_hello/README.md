@@ -1,0 +1,1 @@
+NOTE: Need `raylib.dll` in the directory where you run the executable
