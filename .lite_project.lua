@@ -1,4 +1,13 @@
--- this module will be loaded after everything else when the application starts
+-- Project Module: Odin-playground
+
+-- Make sure to install all these plugins
+-- autoinsert.lua
+-- detectindent.lua
+-- indentguide.lua
+-- language_batch.lua
+-- language_go.lua
+-- language_odin.lua
+
 
 local keymap = require "core.keymap"
 local config = require "core.config"
