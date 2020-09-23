@@ -16,6 +16,10 @@ local style = require "core.style"
 -- light theme:
 -- require "user.colors.summer"
 
+-- Add addiitonal ignored
+-- TODO(Bagus): Improve these regexes
+config.ignore_files = {"^%.", "^[a-zA-Z0-9]+.exe", "^[a-zA-Z0-9]+.dll"}
+
 -- key binding:
 keymap.add {
   ["alt+left"] = "root:switch-to-previous-tab",
