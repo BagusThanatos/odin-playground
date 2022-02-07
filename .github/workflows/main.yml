@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build_linux:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: try echo
         run: echo "hello"
